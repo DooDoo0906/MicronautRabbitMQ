@@ -7,6 +7,6 @@ import io.vertx.core.json.JsonObject;
 @RabbitClient
 public interface Client {
 
-    @Binding("abc")
+    @Binding("demoRabbiMQ")
     void send(JsonObject data);
 }

@@ -1,2 +1,4 @@
+MicronautRabbitMQ.consumer.$Listener$Definition$Reference
 MicronautRabbitMQ.consumer.$ProductListener$Definition$Reference
+MicronautRabbitMQ.producer.$Client$Intercepted$Definition$Reference
 MicronautRabbitMQ.producer.$ProductClient$Intercepted$Definition$Reference

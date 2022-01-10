@@ -1,12 +1,10 @@
 package MicronautRabbitMQ.ultiliities.calculator;
 
 public class Calculator {
-    public static double operation(double a, double b, String op){
-
+    public static double calculate(double a, double b, String op){
         switch (op) {
             case "+":
                 return a + b;
-
             case "-":
                 return  a - b;
 
@@ -15,9 +13,6 @@ public class Calculator {
 
             case ":":
                 return  a / b;
-
-            default:
-
         }
         return 0;
     }
